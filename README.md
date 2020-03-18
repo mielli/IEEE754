@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
-int sinal, expoente[15]={0}, mantissa[64]={0};
+int sinal
+int expoente[15]={0};
+int mantissa[64]={0};
 float numero;
-//expoente32 = 8  || mantissa32 = 23
-//expoente64 = 11 || mantissa64 = 52
 
 void main(){
   printf("Insira o numero a ser convertido no padrão IEEE754: ");
